@@ -1,0 +1,37 @@
+.listEl {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tabItem {
+  color: #7b8794;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+}
+
+.line {
+  width: 100px;
+  font-size: 1px;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  margin: 5px;
+}
+
+.tabItemForSelected {
+  color: #2563eb;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+}
+.lineForSelected {
+  width: 100px;
+  font-size: 1px;
+  border-color: #2563eb;
+}
